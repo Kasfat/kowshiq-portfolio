@@ -3,7 +3,7 @@ import img from './../assets/Images/img1.jpg';
 function About() {
   return (
     <div id="About" className="">
-        <div className='flex lg:px-56 px-10 lg:py-0 py-20 gap-5 lg-text-start lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center'>
+        <div className='flex lg:px-56 px-10 lg:py-0 py-20 gap-5 lg-text-start lg:flex-row flex-col justify-between lg:gap-28 items-center'>
         <div>
             <img data-aos="fade-down" src={img} width={400} height={400} className=" rounded border-2 p-1 border-fuchsia-500 img_glow"/>
         </div>
